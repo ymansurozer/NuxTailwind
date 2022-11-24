@@ -28,13 +28,12 @@ A minimalistic template for building SaaS applications using Nuxt 3, Tailwind, a
 ## To do
 
 - [ ] Basic authentication
-- [ ] Fix lazy loading issue in I18n
 
 ## FAQ
 
-### Why are you not using PNPM?
+### Why not use pnpm?
 
-Because it somehow conflicts with [Tailwind Prettier plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) and I like auto-sorted classes a lot. Issue is probably because how PNPM organizes modules but using shamefully hoist option did not work.
+Because pnpm somehow conflicts with [Tailwind Prettier plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) and I like auto-sorted classes a lot. Issue is probably because how pnpm organizes modules but using shamefully hoist option did not work.
 
 ### Why create this template?
 
