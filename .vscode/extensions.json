@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "bradlc.vscode-tailwindcss",
+    "austenc.tailwind-docs",
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "antfu.goto-alias",
+    "antfu.file-nesting"
+  ]
+}

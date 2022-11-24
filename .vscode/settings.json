@@ -1,0 +1,16 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'JetBrains Mono', Consolas",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.linkedEditing": true,
+  "html.autoClosingTags": true,
+  "editor.minimap.enabled": false,
+  "volar.autoCompleteRefs": true,
+  "eslint.validate": ["javascript", "typescript", "vue"]
+}

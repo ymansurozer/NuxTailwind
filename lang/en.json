@@ -1,0 +1,25 @@
+{
+  "languages": {
+    "english": "English",
+    "turkish": "Turkish"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "header": {
+    "title": "Nuxt 3 + Tailwind SaaS Template",
+    "subtitle": "A minimalistic template for building SaaS applications using Nuxt 3, Tailwind, and others"
+  },
+  "home": {
+    "photo-credit": "Photo by",
+    "counter": {
+      "name": "Counter",
+      "double": "Double the count",
+      "increment": "Increment"
+    }
+  },
+  "about": {
+    "readme": "See Github readme file"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "languages": {
+    "english": "İngilizce",
+    "turkish": "Türkçe"
+  },
+  "navigation": {
+    "home": "Başlangıç",
+    "about": "Hakkında"
+  },
+  "header": {
+    "title": "Nuxt 3 + Tailwind SaaS Şablonu",
+    "subtitle": "Nuxt 3, Tailwind ve diğerleriyle SaaS uygulamaları yaratmak için minimalist bir şablon"
+  },
+  "home": {
+    "photo-credit": "Fotoğraf: ",
+    "counter": {
+      "name": "Sayaç",
+      "double": "İki katı",
+      "increment": "Artır"
+    }
+  },
+  "about": {
+    "readme": "Github benioku dosyasına bakın"
+  }
+}
