@@ -45,6 +45,13 @@ const counter = useCounter();
       >
         {{ $t("home.counter.increment") }}
       </button>
+
+      <button
+        class="rounded-xl bg-red-600 px-3 py-1 text-sm text-white hover:bg-red-700"
+        @click.prevent="throw createError('Test error');"
+      >
+        {{ $t("home.throw-error") }}
+      </button>
     </div>
   </div>
 </template>

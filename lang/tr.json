@@ -17,9 +17,17 @@
       "name": "Sayaç",
       "double": "İki katı",
       "increment": "Artır"
-    }
+    },
+    "throw-error": "Hata Ver"
   },
   "about": {
     "readme": "Github benioku dosyasına bakın"
+  },
+  "errors": {
+    "404": "Bu sayfa bulunamadı",
+    "other": "Bir hata oluştu",
+    "description": "Kırık bir bağlantıya tıkladınız veya bu sitede bulunmayan bir sayfa bağlantısı girdiniz.",
+    "go-back": "Geri Git",
+    "try-again": "Tekrar Dene"
   }
 }

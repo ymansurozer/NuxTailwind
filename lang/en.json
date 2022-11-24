@@ -17,9 +17,17 @@
       "name": "Counter",
       "double": "Double the count",
       "increment": "Increment"
-    }
+    },
+    "throw-error": "Throw error"
   },
   "about": {
     "readme": "See Github readme file"
+  },
+  "errors": {
+    "404": "This page could not be found",
+    "other": "An error occurred",
+    "description": "Looks like you've followed a broken link or entered a URL that doesn't exist on this site.",
+    "go-back": "Go Back",
+    "try-again": "Try Again"
   }
 }
