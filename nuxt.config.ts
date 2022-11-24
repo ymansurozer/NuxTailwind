@@ -91,6 +91,7 @@ export default defineNuxtConfig({
     "@nuxtjs/critters",
 
     // https://github.com/nuxt-modules/fontaine
+    // TODO: Does not work for some reason
     "@nuxtjs/fontaine",
 
     // https://github.com/nuxt-community/google-fonts-module
@@ -98,6 +99,7 @@ export default defineNuxtConfig({
 
     // https://github.com/nuxt/image
     // Remember to put images in /public (not /assets), whitelist domains when using external urls as source, and use <nuxt-img>
+    // Does not work with Netlify yet: https://github.com/nuxt/image/issues/638 and https://answers.netlify.com/t/nuxt-image-doesnt-show-up-after-deploy/46480/7
     "@nuxt/image-edge",
 
     // https://github.com/P4sca1/nuxt-headlessui
