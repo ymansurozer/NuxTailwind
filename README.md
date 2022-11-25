@@ -27,6 +27,7 @@ A minimalistic template for building SaaS applications using Nuxt 3, Tailwind, a
 
 ## To do
 
+- [ ] Dark mode
 - [ ] Basic authentication
 - [ ] Fix issues with font metrics
 - [ ] Fix workaround for Pinia at `nuxt.config.ts:5-7`. See https://github.com/nuxt/framework/issues/6623.
