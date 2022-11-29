@@ -26,12 +26,9 @@ const handleError = () => clearError({ redirect: "/" });
           {{ $t("errors.description") }}
         </p>
         <pre v-if="isDev">{{ error }}</pre>
-        <button
-          class="rounded-lg border px-4 py-1 transition hover:bg-blue-600 hover:text-white focus:bg-blue-700"
-          @click="handleError"
-        >
+        <BaseButton type="primary" @click="handleError">
           {{ $t("errors.go-back") }}
-        </button>
+        </BaseButton>
       </div>
     </div>
   </NuxtLayout>

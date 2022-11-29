@@ -111,6 +111,9 @@ export default defineNuxtConfig({
     // https://github.com/kevinmarrec/nuxt-pwa-module
     // We use this until the official PWA module for Nuxt 3 is out
     "@kevinmarrec/nuxt-pwa",
+
+    // https://github.com/nuxt-modules/supabase
+    "@nuxtjs/supabase",
   ],
 
   pwa: {

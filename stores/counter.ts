@@ -1,6 +1,6 @@
 // https://pinia.vuejs.org/cookbook/composables.html#setup-stores
 // Reactivity transform causes issues in dev tools and actions, so we do not use that here
-export const useCounter = defineStore("counterStore", () => {
+export const useCounter = defineStore("counter", () => {
   // State
   const count = ref(0);
 

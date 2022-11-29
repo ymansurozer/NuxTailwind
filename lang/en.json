@@ -5,7 +5,10 @@
   },
   "navigation": {
     "home": "Home",
-    "about": "About"
+    "about": "About",
+    "restricted": "Secret",
+    "login": "Log In with Github",
+    "logout": "Log Out"
   },
   "header": {
     "title": "Nuxt 3 + Tailwind SaaS Template",

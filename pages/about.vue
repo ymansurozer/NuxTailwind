@@ -6,7 +6,7 @@ definePageMeta({
 
 <template>
   <div class="space-y-8 p-4">
-    <Header />
+    <TheHeader />
     <div class="text-center">
       <a
         href="https://github.com/ymansurozer/nuxtailwind"

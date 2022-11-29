@@ -1,16 +1,24 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  // https://www.jetbrains.com/lp/mono/
   "editor.fontFamily": "'JetBrains Mono', Consolas",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+
+  "eslint.validate": ["javascript", "typescript", "vue"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+
   "editor.linkedEditing": true,
   "html.autoClosingTags": true,
   "editor.minimap.enabled": false,
   "volar.autoCompleteRefs": true,
-  "eslint.validate": ["javascript", "typescript", "vue"]
+
+  "i18n-ally.enabledFrameworks": ["vue"],
+  "i18n-ally.localesPaths": ["lang"],
+  "i18n-ally.keystyle": "nested"
 }

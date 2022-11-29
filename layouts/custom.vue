@@ -8,7 +8,7 @@ function resetError(error: any) {
 
 <template>
   <div class="mx-auto min-h-screen max-w-7xl">
-    <Navigation class="p-4" />
+    <TheNavigation class="p-4" />
     <NuxtErrorBoundary>
       <slot />
       <template #error="{ error }">
@@ -16,12 +16,9 @@ function resetError(error: any) {
           <div class="space-y-4">
             <p class="text-xl font-semibold">{{ $t("errors.other") }}</p>
             <pre v-if="isDev">{{ error }}</pre>
-            <button
-              class="rounded-lg border px-4 py-1 transition hover:bg-blue-600 hover:text-white focus:bg-blue-700"
-              @click.prevent="resetError(error)"
-            >
+            <BaseButton type="primary" @click.prevent="resetError(error)">
               {{ $t("errors.try-again") }}
-            </button>
+            </BaseButton>
           </div>
         </div>
       </template>

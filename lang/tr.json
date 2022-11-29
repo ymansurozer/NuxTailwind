@@ -5,7 +5,10 @@
   },
   "navigation": {
     "home": "Başlangıç",
-    "about": "Hakkında"
+    "about": "Hakkında",
+    "restricted": "Gizli",
+    "login": "Github ile giriş yap",
+    "logout": "Çıkış yap"
   },
   "header": {
     "title": "Nuxt 3 + Tailwind SaaS Şablonu",
