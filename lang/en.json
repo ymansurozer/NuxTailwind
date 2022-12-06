@@ -8,7 +8,11 @@
     "about": "About",
     "restricted": "Secret",
     "login": "Log In with Github",
-    "logout": "Log Out"
+    "logout": "Log Out",
+    "color-theme": {
+      "light": "Light",
+      "dark": "Dark"
+    }
   },
   "header": {
     "title": "Nuxt 3 + Tailwind SaaS Template",

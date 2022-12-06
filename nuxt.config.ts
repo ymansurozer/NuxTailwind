@@ -22,6 +22,11 @@ export default defineNuxtConfig({
     transpile: ["@headlessui/vue"],
   },
 
+  colorMode: {
+    // Allows us to use colorMode with Tailwind CSS's dark variant
+    classSuffix: "",
+  },
+
   experimental: {
     // https://vuejs.org/guide/extras/reactivity-transform.html
     reactivityTransform: true,
@@ -114,6 +119,9 @@ export default defineNuxtConfig({
 
     // https://github.com/nuxt-modules/supabase
     "@nuxtjs/supabase",
+
+    // https://github.com/nuxt-modules/color-mode
+    "@nuxtjs/color-mode",
   ],
 
   pwa: {

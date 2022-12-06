@@ -31,7 +31,7 @@ const counter = useCounter();
 
     <!-- Counter -->
     <div
-      class="flex items-start justify-between space-x-12 p-4 shadow-gray-900"
+      class="flex items-start justify-between space-x-12 rounded-3xl p-4 dark:bg-gray-800 dark:text-gray-100"
     >
       <div>
         <p>
@@ -52,6 +52,7 @@ const counter = useCounter();
       </div>
 
       <TheToggleLanguage />
+      <TheToggleColorTheme />
       <BaseButton
         type="danger"
         @click.prevent="

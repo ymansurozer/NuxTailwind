@@ -13,18 +13,12 @@ onMounted(() => {
 
 <template>
   <div class="flex items-center space-x-2 text-sm">
-    <span
-      :class="[
-        !toggled ? 'font-semibold text-gray-900' : 'font-normal text-gray-600',
-      ]"
-      >{{ $t("languages.english") }}</span
-    >
+    <span :class="[!toggled ? 'font-semibold' : 'font-normal']">{{
+      $t("languages.english")
+    }}</span>
     <BaseToggle v-model="toggled" />
-    <span
-      :class="[
-        toggled ? 'font-semibold text-gray-900' : 'font-normal text-gray-600',
-      ]"
-      >{{ $t("languages.turkish") }}</span
-    >
+    <span :class="[toggled ? 'font-semibold ' : 'font-normal']">{{
+      $t("languages.turkish")
+    }}</span>
   </div>
 </template>

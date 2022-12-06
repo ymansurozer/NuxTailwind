@@ -8,7 +8,11 @@
     "about": "Hakkında",
     "restricted": "Gizli",
     "login": "Github ile giriş yap",
-    "logout": "Çıkış yap"
+    "logout": "Çıkış yap",
+    "color-theme": {
+      "light": "Aydınlık",
+      "dark": "Karanlık"
+    }
   },
   "header": {
     "title": "Nuxt 3 + Tailwind SaaS Şablonu",
