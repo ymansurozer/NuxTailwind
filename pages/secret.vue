@@ -4,11 +4,9 @@ definePageMeta({
   middleware: ["auth"],
 });
 
-const auth = useAuth();
-
 // If user logs out, we redirect to home page
 watchEffect(() => {
-  if (!auth.isAuthenticated) {
+  if (!getUser().value) {
     navigateTo("/");
   }
 });

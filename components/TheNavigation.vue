@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n();
 const route = useRoute();
-const auth = useAuth();
 
 const menuItems = ref([
   {
@@ -27,11 +26,11 @@ const menuItems = ref([
 ]);
 
 async function handleLogIn() {
-  await auth.logIn();
+  await signIn();
 }
 
 async function handleLogOut() {
-  await auth.logOut();
+  await signOut();
 }
 </script>
 
@@ -50,13 +49,13 @@ async function handleLogOut() {
     </div>
 
     <BaseButton
-      v-if="!auth.isAuthenticated"
+      v-if="!isUserAuthenticated()"
       type="gray"
       @click.prevent="handleLogIn()"
       >{{ $t("navigation.login") }}</BaseButton
     >
     <div v-else class="flex items-center space-x-2">
-      <span class="text-gray-600">{{ auth.user?.email }}</span>
+      <span class="text-gray-600">{{ getUser().value?.email }}</span>
       <BaseButton type="gray" @click.prevent="handleLogOut()">{{
         $t("navigation.logout")
       }}</BaseButton>

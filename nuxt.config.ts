@@ -86,8 +86,6 @@ export default defineNuxtConfig({
     [
       "@pinia/nuxt",
       {
-        // TODO: This option seems to be deprecated but still works
-        // https://github.com/nuxt/framework/pull/9029
         autoImports: ["defineStore", "acceptHMRUpdate"],
       },
     ],
@@ -96,7 +94,6 @@ export default defineNuxtConfig({
     "@nuxtjs/critters",
 
     // https://github.com/nuxt-modules/fontaine
-    // TODO: Does not work for some reason
     "@nuxtjs/fontaine",
 
     // https://github.com/nuxt-community/google-fonts-module
